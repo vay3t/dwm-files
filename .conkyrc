@@ -1,0 +1,11 @@
+conky.config = {
+background = false,
+out_to_console = true,
+update_interval = 1,
+total_run_times = 0,
+use_spacer = none,
+};
+conky.text = [[
+TEXT
+:: CPU ${cpu cpu1}%|${cpu cpu2}%|${cpu cpu3}%|${cpu cpu4}% :: MEM $memperc% :: ESSID ${wireless_essid wlan0} :: Bat ${battery_percent}% ${acpiacadapter} :: ${time %a %b %d %H:%M%P}
+]];
